@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</head>
+<body>
+    <div class="invitation-container">
+        <header>
+            <h1 style="font-size: 20px;">  Gulshanoy & Ahrorjon</h1>
+        </header>
+        
+        <section class="invitation-details" id="invitationDetails">
+            <h2></h2>
+            <p>Asssalomu Alekum azizlar. Sizni Gulshanoy & Ahrorjonni toylariga taklif etib qolamiz!</p>
+            <p><strong>Sana:</strong>21-oktabr ,2024</p>
+            <p><strong>Soat:</strong> 12:00 </p>
+            <p><strong>Joy:</strong> Fergana ctiy, Rishtan</p>
+        </section>
+        
+        <section class="countdown" id="countdownSection">
+            <h2>Toy boshlanishiga</h2>
+            <div id="timer">
+                <div class="time-unit">
+                    <div id="days" class="value">00</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time-unit">
+                    <div id="hours" class="value">00</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time-unit">
+                    <div id="minutes" class="value">00</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time-unit">
+                    <div id="seconds" class="value">00</div>
+                    <div class="label">Seconds</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map">
+            <h2>Qayerda</h2>
+            <a href="https://maps.app.goo.gl/jQiu9hohNk2LVa2K8"><div id="map"></div></a>
+        </section>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
